@@ -49,3 +49,5 @@ void insertionsort(){ //procedure insertion sort
         }
     }
 }
+
+void display()
