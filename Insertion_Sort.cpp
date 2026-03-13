@@ -21,7 +21,7 @@ cout << "=============================================";
 cout << "============Masukkan Element Array===========";
 cout << "=============================================";
 
-for (int i = 0; i < n; i++ ){
+for (int i = 0; i < n; i++){
     cout << "Data ke-" << (i+1) << ": ";
     cin >> arr[i];
 }
@@ -30,4 +30,14 @@ for (int i = 0; i < n; i++ ){
 void insertionsort(){ //procedure insertion sort
     int temp;
     int j;
-}
+
+    
+        temp = arr[i];
+        j = i - 1;
+
+        while (j >= 0 && arr[j] > temp)
+        {
+            arr[j+1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = temp;
