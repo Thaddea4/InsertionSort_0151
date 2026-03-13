@@ -12,5 +12,13 @@ while (true){
     if (n <= 20){
         break;
     }
+    else{
+        cout << "\nArray Tidak Boleh Lebih dari 20\n";
+    }
 }
+cout << endl;
+cout << "=============================================";
+cout << "============Masukkan Element Array===========";
+cout << "=============================================";
+
 }
