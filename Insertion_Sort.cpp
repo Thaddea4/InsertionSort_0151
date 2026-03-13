@@ -50,4 +50,7 @@ void insertionsort(){ //procedure insertion sort
     }
 }
 
-void display()
+
+    for(int j = 0; j <  n; j++){
+        cout << arr[j] << endl;
+    }
