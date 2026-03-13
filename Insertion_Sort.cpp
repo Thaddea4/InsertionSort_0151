@@ -8,5 +8,9 @@ void input (){ //procedure input
 while (true){
     cout << "Masukkan Jumlah Data Pada Array : ";
     cin >> n;
+    
+    if (n <= 20){
+        break;
+    }
 }
 }
